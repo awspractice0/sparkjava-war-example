@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        // Install the Maven version configured as "maven3" and add it to the path.
+        // Install the Maven version configured as "maven396" and add it to the path.
         maven "maven396"
     }
 
